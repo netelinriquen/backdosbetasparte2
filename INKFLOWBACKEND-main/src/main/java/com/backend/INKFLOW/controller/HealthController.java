@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
-@CrossOrigin(origins = {"https://study-2yii.vercel.app", "http://localhost:5173"})
+@CrossOrigin(origins = {"https://stud-yteste.vercel.app", "https://study-2yii.vercel.app", "http://localhost:5173"})
 public class HealthController {
     
     @GetMapping("/")
