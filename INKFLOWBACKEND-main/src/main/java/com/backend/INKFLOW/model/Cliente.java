@@ -22,9 +22,6 @@ public class Cliente {
     private String fullName;
     private String telefone;
     
-    @Column(name = "profile_image")
-
-    
     @Column(name = "created_at")
     private LocalDateTime createdAt = LocalDateTime.now();
     
