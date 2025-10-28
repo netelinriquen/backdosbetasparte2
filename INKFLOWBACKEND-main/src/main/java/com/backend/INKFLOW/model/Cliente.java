@@ -21,7 +21,9 @@ public class Cliente {
     
     private String fullName;
     private String telefone;
-    private String profileImage;
+    
+    @Column(name = "profile_image")
+
     
     @Column(name = "created_at")
     private LocalDateTime createdAt = LocalDateTime.now();
@@ -54,8 +56,7 @@ public class Cliente {
     public String getTelefone() { return telefone; }
     public void setTelefone(String telefone) { this.telefone = telefone; }
     
-    public String getProfileImage() { return profileImage; }
-    public void setProfileImage(String profileImage) { this.profileImage = profileImage; }
+
     
     public LocalDateTime getCreatedAt() { return createdAt; }
     public void setCreatedAt(LocalDateTime createdAt) { this.createdAt = createdAt; }
